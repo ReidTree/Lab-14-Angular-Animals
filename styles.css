@@ -1,0 +1,75 @@
+.headerDiv {
+  top: 0;
+  max-width: 1400px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 3% 10% 1% 10%;
+}
+.aHead {
+  display: inline-block;
+  width: 20%;
+  margin: 0 1.8%;
+}
+.aHead img:hover {
+  opacity: 0.3;
+}
+div a img {
+  width: 100%;
+}
+p.gimme {
+  width: 44%;
+  font-size: 3.5vw;
+  position: relative;
+  margin: -30% 29%;
+  background-color: black;
+  color: white;
+  visibility: hidden;
+  z-index: 10;
+}
+
+.rel {
+  position: relative;
+  margin: -46% 24.6%;
+  color: black;
+  font-size: 2.3vw;
+  font-family: sans-serif;
+  font-weight: bolder;
+  z-index: -1
+}
+.container img, {
+  min-width: 50%;
+}
+.container {
+  width: 90%;
+  padding: 1% 0 5% 0;
+  margin: 5% auto;
+  text-align: center;
+}
+h2 {
+  font-family: monospace;
+  font-size: 3vw;
+  width: 40%;
+  margin: 2% auto 3% auto;
+  padding: 1% 1% 1% 1%;
+}
+.chill{
+  position: relative;
+  margin: -46% 1.6%;
+  color: black;
+  font-size: 2.3vw;
+  font-family: sans-serif;
+  font-weight: bolder;
+  z-index: -1;
+}
+.key{
+  position: relative;
+  margin: -46% 11.6%;
+  color: black;
+  font-size: 2.3vw;
+  font-family: sans-serif;
+  font-weight: bolder;
+  z-index: -1;
+}
+.doggy {
+  width: 60%;
+}

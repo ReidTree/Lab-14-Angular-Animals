@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="myModule" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Cat / Dog</title>
+
+  </head>
+  <body>
+
+
+<div class="headerDiv">
+  <div class="aHead">
+    <a href="#!/cat"><img src="img/cat.jpeg" alt=""></a>
+    <p class="rel">CATS</p>
+  </div>
+  <div class="aHead">
+    <a href="#!/dog"><img src="img/dog.jpeg" alt=""></a>
+    <p class="rel">DOGS</p>
+  </div>
+  <div class="aHead">
+    <a href="#!/chinchilla"><img src="img/chinchilla.jpg" alt=""></a>
+    <p class="chill">C'CHILLAS</p>
+  </div>
+  <div class="aHead">
+    <a href="#!/monkey"><img src="img/monkey.png" alt=""></a>
+    <p class="key">MONKEYS</p>
+  </div>
+</div>
+
+
+
+    <ng-view></ng-view>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js" type="text/javascript"></script>
+    <script src="https://code.angularjs.org/1.6.5/angular-route.js" charset="utf-8"></script>
+    <script src="js/module.js" charset="utf-8"></script>
+    <script src="js/controller.js" charset="utf-8"></script>
+    <script src="js/config.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="styles.css">
+  </body>
+</html>
