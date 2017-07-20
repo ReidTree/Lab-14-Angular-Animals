@@ -3,7 +3,7 @@
   max-width: 1400px;
   width: 80%;
   margin: 0 auto;
-  padding: 3% 10% 1% 10%;
+  padding: 0 10% 1% 10%;
 }
 .aHead {
   display: inline-block;
@@ -72,4 +72,8 @@ h2 {
 }
 .doggy {
   width: 60%;
+}
+.clickInfo {
+  margin: 3% auto 0 auto;
+  text-align: center;
 }
